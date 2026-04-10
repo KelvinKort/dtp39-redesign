@@ -51,8 +51,8 @@ img{max-width:100%;display:block}
 .btn{display:inline-flex;align-items:center;justify-content:center;padding:16px 24px;border-radius:14px;font-weight:700;transition:.2s ease}
 .btn-primary{background:var(--red);color:#fff}.btn-primary:hover{background:var(--red-hover)}
 .btn-secondary{border:1px solid rgba(255,255,255,.16);color:#fff;background:rgba(255,255,255,.03)}
-.hero-media-card{background:#111;border:1px solid rgba(255,255,255,.08);padding:12px;border-radius:28px;box-shadow:0 24px 80px rgba(0,0,0,.35)}
-.hero-media-card img{border-radius:20px;min-height:520px;object-fit:cover}
+.hero-media-card{background:#111;border:1px solid rgba(255,255,255,.08);padding:12px;border-radius:28px;box-shadow:0 24px 80px rgba(0,0,0,.35);overflow:hidden}
+.hero-media-card img{border-radius:20px;min-height:520px;object-fit:cover;object-position:center center}
 .emergency-strip{background:#fff;border-bottom:1px solid #eceef2}
 .emergency-grid{display:grid;grid-template-columns:1.1fr repeat(3,1fr);gap:20px;padding:26px 0}
 .strip-title{font-size:28px;font-weight:800;color:#111}
