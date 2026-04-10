@@ -41,7 +41,7 @@ img{max-width:100%;display:block}
 .phone-icon{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:#111;color:#fff;font-size:16px;box-shadow:0 8px 20px rgba(17,17,17,.12)}
 .hero{background:linear-gradient(180deg,#09090a 0%, #121318 100%);padding:72px 0 56px;color:#fff}
 .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
-.hero-badge{display:inline-flex;padding:7px 11px;border:1px solid rgba(255,255,255,.12);border-radius:999px;color:#bcc2cc;font-size:11px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:18px}
+.hero-badge{display:flex;align-items:center;width:100%;max-width:560px;padding:11px 16px;border:1px solid rgba(255,255,255,.12);border-radius:999px;color:#c9ced7;font-size:14px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 22px}
 .hero h1{font-size:42px;line-height:1.08;margin:0 0 16px;max-width:520px}
 .hero-text{font-size:18px;line-height:1.6;color:#c7ccd5;max-width:640px;margin:0 0 24px}
 .hero-note{font-size:13px;color:#9da5b1;margin-top:16px;max-width:620px}
