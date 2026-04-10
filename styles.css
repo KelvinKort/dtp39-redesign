@@ -26,17 +26,19 @@ img{max-width:100%;display:block}
   backdrop-filter:blur(12px);
   border-bottom:1px solid rgba(18,18,18,0.08);
 }
-.header-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:16px 0}
-.brand-mark{font-size:28px;font-weight:800;color:#111;letter-spacing:.02em}
-.brand-sub{font-size:12px;color:#6f757f;text-transform:uppercase;letter-spacing:.12em}
-.top-nav{display:flex;gap:28px;color:#151515;font-size:14px;font-weight:600}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:28px;padding:18px 0}
+.brand{min-width:180px}
+.brand-mark{font-size:30px;font-weight:800;color:#111;letter-spacing:.02em}
+.brand-sub{font-size:12px;color:#6f757f;text-transform:uppercase;letter-spacing:.14em;margin-top:2px}
+.top-nav{display:flex;gap:32px;color:#151515;font-size:15px;font-weight:700}
 .top-nav a{position:relative;padding:6px 0}
-.top-nav a::after{content:'';position:absolute;left:0;bottom:-3px;width:100%;height:2px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:.2s ease}
+.top-nav a::after{content:'';position:absolute;left:0;bottom:-4px;width:100%;height:2px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:.2s ease}
+.top-nav a:hover{color:var(--red)}
 .top-nav a:hover::after{transform:scaleX(1)}
-.header-actions{display:flex;align-items:center;gap:14px}
-.header-call-btn{padding:13px 18px;border-radius:12px;font-size:14px;white-space:nowrap}
-.header-phone-link{display:inline-flex;align-items:center;gap:10px;color:#111;font-size:16px;font-weight:800;white-space:nowrap}
-.phone-icon{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;background:#111;color:#fff;font-size:16px}
+.header-actions{display:flex;align-items:center;gap:16px}
+.header-call-btn{padding:14px 22px;border-radius:12px;font-size:14px;white-space:nowrap;box-shadow:0 10px 24px rgba(214,40,40,.18)}
+.header-phone-link{display:inline-flex;align-items:center;gap:10px;color:#111;font-size:17px;font-weight:800;white-space:nowrap;padding:6px 0}
+.phone-icon{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:#111;color:#fff;font-size:16px;box-shadow:0 8px 20px rgba(17,17,17,.12)}
 .hero{background:linear-gradient(180deg,#09090a 0%, #121318 100%);padding:72px 0 56px;color:#fff}
 .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
 .hero-badge{display:inline-flex;padding:8px 12px;border:1px solid rgba(255,255,255,.12);border-radius:999px;color:#d1d5de;font-size:13px;margin-bottom:22px}
