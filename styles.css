@@ -22,7 +22,7 @@ img{max-width:100%;display:block}
 .container{width:min(1180px, calc(100% - 40px));margin:0 auto}
 .site-header{
   position:sticky;top:0;z-index:20;
-  background:rgba(255,255,255,0.96);
+  background:#ffffff !important;
   backdrop-filter:blur(12px);
   border-bottom:1px solid rgba(18,18,18,0.08);
 }
