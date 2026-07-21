@@ -790,6 +790,21 @@ html,body{overflow-x:hidden}
   padding:64px 0 78px;
 }
 
+/* Keep the homepage trust block balanced: the image follows the text column height. */
+.why-grid{
+  align-items:stretch;
+}
+.why-photo{
+  min-height:0;
+}
+.why-photo img{
+  height:100%;
+  max-height:520px;
+  min-height:0;
+  aspect-ratio:auto;
+  object-position:center 42%;
+}
+
 @media(max-width:760px){
   .section{
     padding:52px 0;
@@ -815,5 +830,10 @@ html,body{overflow-x:hidden}
   }
   .article-wrap{
     padding:52px 0 66px;
+  }
+  .why-photo img{
+    height:auto;
+    max-height:none;
+    aspect-ratio:4/3;
   }
 }
