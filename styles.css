@@ -194,27 +194,29 @@ html,body{overflow-x:hidden}
 /* Enlarged header identity from the supplied logo reference */
 .site-header .header-inner{min-height:124px}
 .site-header .brand{
-  grid-template-columns:104px auto;
+  grid-template-columns:112px max-content;
   grid-template-rows:auto auto;
-  column-gap:20px;
+  column-gap:16px;
   align-items:center;
 }
 .site-header .brand-symbol,
 .site-header .brand:not(:has(.brand-symbol))::before{
-  width:104px;
-  height:104px;
+  width:112px;
+  height:112px;
 }
 .site-header .brand-mark{
-  font-size:54px;
+  font-size:58px;
   line-height:.86;
   letter-spacing:.006em;
   white-space:nowrap;
 }
 .site-header .brand-sub{
-  margin-top:11px;
-  font-size:11px;
+  display:block;
+  width:100%;
+  margin-top:10px;
+  font-size:10px;
   line-height:1;
-  letter-spacing:.31em;
+  letter-spacing:.34em;
   white-space:nowrap;
 }
 .site-header .top-nav{gap:22px}
@@ -273,11 +275,11 @@ html,body{overflow-x:hidden}
   .container{width:min(100% - 30px,1280px)}
   .site-header .header-inner{min-height:98px;gap:18px}
   .site-header .header-phone{display:none}
-  .site-header .brand{grid-template-columns:72px auto;column-gap:13px}
+  .site-header .brand{grid-template-columns:78px max-content;column-gap:11px}
   .brand-symbol,.brand:not(:has(.brand-symbol))::before{width:36px;height:36px}
-  .site-header .brand-symbol,.site-header .brand:not(:has(.brand-symbol))::before{width:72px;height:72px}
-  .site-header .brand-mark{font-size:38px;letter-spacing:.008em}
-  .site-header .brand-sub{margin-top:8px;font-size:8px;letter-spacing:.31em}
+  .site-header .brand-symbol,.site-header .brand:not(:has(.brand-symbol))::before{width:78px;height:78px}
+  .site-header .brand-mark{font-size:42px;letter-spacing:.008em}
+  .site-header .brand-sub{margin-top:7px;font-size:7px;letter-spacing:.34em}
   .hero{padding:0;border-top:0}
   .hero-grid{gap:54px}
   .hero-content{padding:52px 0 0}
@@ -323,10 +325,10 @@ html,body{overflow-x:hidden}
 }
 @media(max-width:430px){
   .site-header .header-inner{min-height:88px;gap:12px}
-  .site-header .brand{grid-template-columns:60px auto;column-gap:10px}
-  .site-header .brand-symbol,.site-header .brand:not(:has(.brand-symbol))::before{width:60px;height:60px}
-  .site-header .brand-mark{font-size:32px}
-  .site-header .brand-sub{margin-top:7px;font-size:7px;letter-spacing:.22em}
+  .site-header .brand{grid-template-columns:64px max-content;column-gap:9px}
+  .site-header .brand-symbol,.site-header .brand:not(:has(.brand-symbol))::before{width:64px;height:64px}
+  .site-header .brand-mark{font-size:34px}
+  .site-header .brand-sub{margin-top:6px;font-size:6px;letter-spacing:.29em}
 }
 @media(max-width:1050px) and (min-width:761px){.hero-grid{grid-template-columns:.92fr 1.08fr;gap:0}.hero-content{padding-right:38px}.hero-identity{font-size:90px}.hero h1{font-size:48px}.hero-callline{width:100%}.hero-callline strong{font-size:34px}.hero-visual img{object-position:56% center}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
