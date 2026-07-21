@@ -98,6 +98,21 @@ h1,h2,h3,.brand-mark,.top-nav,.header-phone strong,.btn,.hero-facts strong,.firs
 .hero-visual{position:relative;overflow:hidden;min-width:0}.hero-visual:before{display:none}.hero-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#090a0b 0,rgba(9,10,11,.68) 9%,rgba(9,10,11,0) 35%);pointer-events:none}
 .hero-visual img{width:100%;height:100%;min-height:700px;aspect-ratio:auto;border-radius:0;object-fit:cover;object-position:57% center;filter:contrast(1.04) saturate(.92)}
 
+/* Stricter typography with readable tracking */
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:0}
+h1,h2,h3,.hero-identity,.contact-cta h2,.inner-hero h1,.article h2,.article h3,.service-card h3,.timeline h3{font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;font-weight:700}
+.hero-identity{letter-spacing:.008em}
+.hero h1{line-height:1.06;letter-spacing:.006em}
+.section h2{line-height:1.04;letter-spacing:.004em}
+.service-card h3{line-height:1.12;letter-spacing:.006em}
+.timeline h3{line-height:1.16;letter-spacing:.006em}
+.review-card blockquote{letter-spacing:.004em}
+.contact-cta h2{line-height:1.05;letter-spacing:.004em}
+.inner-hero h1{line-height:1.02;letter-spacing:.005em}
+.article h2{line-height:1.16;letter-spacing:.004em}
+.article h3{line-height:1.2;letter-spacing:.004em}
+.big-phone,.hero-callline strong,.header-phone strong{letter-spacing:0}
+
 @media(max-width:1050px){.top-nav{display:none}.hero-grid,.why-grid{gap:42px}.hero h1{font-size:57px}.first-aid-grid{grid-template-columns:1fr 1fr}.first-aid-title{border:0}.process-grid,.geography-grid,.faq-grid,.contact-cta-grid{gap:55px}.article-grid{gap:45px}}
 @media(max-width:760px){.container{width:min(100% - 28px,1240px)}.header-inner{min-height:68px}.header-phone span{display:none}.header-phone strong{font-size:21px}.hero{padding:45px 0 40px}.hero-grid,.split-heading,.process-grid,.why-grid,.geography-grid,.faq-grid,.contact-cta-grid,.article-grid{grid-template-columns:1fr}.hero-grid{gap:48px}.hero h1{font-size:46px}.hero-lead{font-size:16px}.hero-actions{flex-direction:column}.btn{width:100%}.hero-facts{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.hero-facts li{min-width:0;margin:0;padding:0 8px 0 0}.hero-facts strong{font-size:16px}.hero-facts span{font-size:9px}.visual-card-top{right:8px}.visual-card-bottom{left:8px}.first-aid-grid{grid-template-columns:1fr;padding:26px 0}.first-aid-title{padding-bottom:18px;border-bottom:1px solid var(--line)}.section{padding:76px 0}.section h2{font-size:43px}.split-heading{gap:24px}.split-heading>p{font-size:16px}.service-grid{grid-template-columns:1fr}.service-card{min-height:285px;padding:25px}.service-card h3{margin-top:55px;font-size:30px}.process-grid,.geography-grid,.faq-grid,.contact-cta-grid{gap:45px}.process-intro{position:static}.timeline li{grid-template-columns:45px 1fr}.why-grid{gap:42px}.why-photo:after{right:-17px}.principles{grid-template-columns:1fr}.reviews-heading{grid-template-columns:1fr;gap:28px}.yandex-rating{min-width:0}.review-grid{grid-template-columns:1fr}.review-card{min-height:270px}.review-card blockquote{font-size:20px;margin-top:32px}.reviews-foot{align-items:flex-start;flex-direction:column}.big-phone{font-size:52px}.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}.footer-bottom{flex-direction:column;margin-bottom:76px}.mobile-call{position:fixed;z-index:40;left:10px;right:10px;bottom:10px;display:flex;align-items:center;justify-content:space-between;padding:12px 18px;background:var(--red);color:#fff;border-radius:14px;box-shadow:0 15px 45px rgba(12,13,16,.32);font-size:13px;font-weight:800}.mobile-call strong{font-size:21px}.inner-hero{padding:52px 0}.inner-hero h1{font-size:44px}.inner-hero p{font-size:16px}.article-wrap{padding:58px 0 90px}.article h2{font-size:32px}.page-sidebar{position:static}.article-grid{gap:46px}}
 @media(max-width:760px){.brand{grid-template-columns:36px auto;column-gap:8px}.brand-symbol{width:36px;height:36px}.brand-mark{font-size:24px}.brand-sub{font-size:7px}.team-gallery{grid-template-columns:1fr}.team-gallery img,.team-gallery img:first-child{grid-row:auto;min-height:240px;aspect-ratio:4/3}}
