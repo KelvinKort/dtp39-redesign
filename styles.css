@@ -202,6 +202,21 @@ html,body{overflow-x:hidden}
 .section.services .section-heading .kicker{
   margin-bottom:14px;
 }
+.section.services .service-card{
+  min-height:260px;
+  padding:28px 30px 24px;
+}
+.section.services .service-card h3{
+  margin:52px 0 12px;
+  font-size:34px;
+}
+.section.services .service-card p{
+  font-size:14px;
+  line-height:1.45;
+}
+.section.services .card-link{
+  padding-top:18px;
+}
 .process,.contact-cta,.inner-hero{background:linear-gradient(180deg,#101114 0%,#08090b 100%)}
 .timeline li{border-top-color:rgba(255,255,255,.14)}
 .why-photo img,.team-gallery img{box-shadow:0 24px 70px rgba(9,10,13,.13)}
@@ -339,8 +354,8 @@ html,body{overflow-x:hidden}
   .section.services .section-heading h2{font-size:32px}
   .section.services .section-heading .kicker{margin-bottom:12px}
   .section.services .split-heading>p{max-width:calc(100vw - 28px)}
-  .service-card{min-height:290px}
-  .service-card h3{margin-top:58px}
+  .section.services .service-card{min-height:225px;padding:24px 22px 22px}
+  .section.services .service-card h3{margin-top:38px;font-size:28px}
   .why-photo:after{right:auto}
   .review-card{min-height:285px;padding:28px}
   .review-card blockquote{font-size:21px}
