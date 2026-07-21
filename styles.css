@@ -181,6 +181,26 @@ html,body{overflow-x:hidden}
 }
 .service-card:hover{box-shadow:inset 0 6px 0 var(--gold)}
 .card-index,.kicker{color:var(--red)}
+.section.services{
+  padding:70px 0 78px;
+}
+.section.services .section-heading{
+  margin-bottom:42px;
+}
+.section.services .split-heading{
+  align-items:center;
+}
+.section.services .split-heading>p{
+  max-width:100%;
+  overflow-wrap:break-word;
+}
+.section.services .section-heading h2{
+  font-size:clamp(30px,2.55vw,34px);
+  line-height:1.07;
+}
+.section.services .section-heading .kicker{
+  margin-bottom:14px;
+}
 .process,.contact-cta,.inner-hero{background:linear-gradient(180deg,#101114 0%,#08090b 100%)}
 .timeline li{border-top-color:rgba(255,255,255,.14)}
 .why-photo img,.team-gallery img{box-shadow:0 24px 70px rgba(9,10,13,.13)}
@@ -314,6 +334,9 @@ html,body{overflow-x:hidden}
   .aid-step:last-child{border-bottom:0}
   .section{padding:84px 0}
   .section-heading{margin-bottom:42px}
+  .section.services{padding:56px 0 64px}
+  .section.services .section-heading h2{font-size:32px}
+  .section.services .section-heading .kicker{margin-bottom:12px}
   .service-card{min-height:290px}
   .service-card h3{margin-top:58px}
   .why-photo:after{right:auto}
