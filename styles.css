@@ -124,10 +124,12 @@ h1,h2,h3,.hero-identity,.contact-cta h2,.inner-hero h1,.article h2,.article h3,.
 body{background:linear-gradient(180deg,#f8f6f1 0%,var(--paper) 100%)}
 html,body{overflow-x:hidden}
 .site-header{
+  background:#fff;
   border-bottom:1px solid rgba(17,17,17,.12);
-  box-shadow:0 10px 34px rgba(9,10,13,.07);
+  box-shadow:none;
 }
-.brand-symbol{filter:drop-shadow(0 8px 18px rgba(9,10,13,.14))}
+.site-header .header-inner{background:#fff}
+.brand-symbol{filter:none}
 .top-nav a{transition:color .2s ease}.top-nav a:hover,.top-nav a:focus-visible{color:var(--red)}
 .header-phone strong{color:#0b0c0f}
 .hero{
