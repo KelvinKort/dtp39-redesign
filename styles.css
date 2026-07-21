@@ -366,8 +366,8 @@ html,body{overflow-x:hidden}
 
 /* Main strip restyled from the latest banner reference */
 .hero{
-  min-height:clamp(450px,38vw,500px);
-  padding:52px 0 46px;
+  min-height:clamp(400px,34vw,445px);
+  padding:28px 0 24px;
   background:#050607;
 }
 .hero:before{
@@ -377,7 +377,7 @@ html,body{overflow-x:hidden}
 }
 .hero-grid.container{
   width:min(100%,1440px);
-  min-height:clamp(450px,38vw,500px);
+  min-height:clamp(400px,34vw,445px);
   padding-left:clamp(28px,4.2vw,64px);
   margin-inline:auto;
 }
@@ -385,7 +385,7 @@ html,body{overflow-x:hidden}
   grid-template-columns:minmax(545px,.82fr) minmax(0,1.18fr);
 }
 .hero-content{
-  padding:clamp(22px,3vw,34px) clamp(14px,2vw,26px) clamp(18px,2.4vw,30px) 0;
+  padding:clamp(16px,2.2vw,26px) clamp(14px,2vw,26px) clamp(12px,1.8vw,22px) 0;
   justify-content:flex-start;
   min-width:0;
 }
@@ -478,11 +478,15 @@ html,body{overflow-x:hidden}
 }
 .hero-visual{
   margin-left:clamp(-58px,-4vw,-24px);
+  min-height:100%;
 }
 .hero-visual img{
-  min-height:calc(clamp(450px,38vw,500px) + clamp(44px,4vw,58px));
-  transform:translateY(clamp(-58px,-4vw,-44px));
-  object-position:92% center;
+  position:absolute;
+  inset:0;
+  height:calc(100% + clamp(98px,8vw,132px));
+  min-height:0;
+  transform:translateY(clamp(-88px,-6vw,-66px));
+  object-position:92% 46%;
   filter:contrast(1.02) saturate(1) brightness(.98);
 }
 .hero-visual:after{
@@ -512,7 +516,7 @@ html,body{overflow-x:hidden}
     padding-left:0;
   }
   .hero-grid{grid-template-columns:1fr;gap:22px}
-  .hero-content{padding:28px 0 0}
+  .hero-content{padding:22px 0 0}
   .hero-topline{width:max-content;max-width:100%;gap:8px;margin-bottom:22px;font-size:8px;letter-spacing:.02em}
   .hero-topline:before{content:none}
   .hero-topline i{flex-basis:11px;width:11px;height:11px}
@@ -522,7 +526,7 @@ html,body{overflow-x:hidden}
   .hero-callline{width:100%;max-width:360px;margin-top:24px}
   .hero-visual{margin-inline:-15px}
   .hero-visual:after{display:block;background:linear-gradient(180deg,rgba(5,6,7,.06),rgba(5,6,7,.38))}
-  .hero-visual img{min-height:300px;aspect-ratio:4/3;transform:none;object-position:88% center}
+  .hero-visual img{position:relative;inset:auto;height:auto;min-height:250px;aspect-ratio:16/9;transform:none;object-position:76% 46%}
 }
 
 /* More expressive first-aid strip */
