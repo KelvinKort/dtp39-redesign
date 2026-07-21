@@ -358,33 +358,31 @@ html,body{overflow-x:hidden}
 .hero-topline{
   display:flex;
   align-items:center;
-  justify-content:space-between;
-  gap:20px;
-  width:min(100%,620px);
+  justify-content:flex-start;
+  gap:14px;
+  width:max-content;
+  max-width:100%;
   margin:0 0 clamp(34px,4vw,50px);
   color:#ddd7cb;
-  font-size:clamp(12px,1.08vw,16px);
+  font-size:clamp(10px,.78vw,12px);
   font-weight:800;
-  line-height:1.25;
-  letter-spacing:.23em;
+  line-height:1;
+  letter-spacing:.18em;
   text-transform:uppercase;
   text-shadow:0 10px 30px rgba(0,0,0,.62);
 }
 .hero-topline:before{
-  content:"";
-  flex:0 0 12px;
-  width:12px;
-  height:12px;
-  background:var(--gold);
+  content:none;
 }
 .hero-topline span{
-  flex:1 1 auto;
+  flex:0 1 auto;
   min-width:0;
+  white-space:nowrap;
 }
 .hero-topline i{
-  flex:0 0 16px;
-  width:16px;
-  height:16px;
+  flex:0 0 14px;
+  width:14px;
+  height:14px;
   border-radius:50%;
   background:#41d75f;
   box-shadow:0 0 0 5px rgba(65,215,95,.14),0 0 26px rgba(65,215,95,.55);
@@ -461,7 +459,7 @@ html,body{overflow-x:hidden}
 @media(max-width:1050px) and (min-width:761px){
   .hero-grid{grid-template-columns:minmax(420px,.9fr) minmax(0,1.1fr)}
   .hero-content{padding-right:34px}
-  .hero-topline{width:100%;font-size:12px;letter-spacing:.18em}
+  .hero-topline{width:max-content;font-size:10px;letter-spacing:.12em}
   .hero-identity{font-size:clamp(88px,11vw,118px)}
   .hero h1{font-size:clamp(36px,4.35vw,46px)}
   .hero-visual{margin-left:-54px}
@@ -480,9 +478,9 @@ html,body{overflow-x:hidden}
   }
   .hero-grid{grid-template-columns:1fr;gap:30px}
   .hero-content{padding:42px 0 0}
-  .hero-topline{width:100%;max-width:370px;gap:10px;margin-bottom:30px;font-size:10px;letter-spacing:.08em}
-  .hero-topline:before{flex-basis:10px;width:10px;height:10px}
-  .hero-topline i{flex-basis:13px;width:13px;height:13px}
+  .hero-topline{width:max-content;max-width:100%;gap:8px;margin-bottom:30px;font-size:8px;letter-spacing:.02em}
+  .hero-topline:before{content:none}
+  .hero-topline i{flex-basis:11px;width:11px;height:11px}
   .hero-identity{font-size:clamp(78px,25vw,112px)}
   .hero-rule{width:100%;max-width:330px;margin:28px 0 32px}
   .hero h1{font-size:clamp(42px,13vw,58px);line-height:1.02}
