@@ -794,6 +794,18 @@ html,body{overflow-x:hidden}
   white-space:nowrap;
   font-size:clamp(40px,4.6vw,64px);
 }
+.yandex-mark{
+  overflow:hidden;
+  border-radius:50%;
+  background:#ff3d1f;
+}
+.yandex-mark img{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+  transform:scale(1.18);
+}
 
 /* Keep the homepage trust block balanced: the image follows the text column height. */
 .why-grid{
