@@ -191,32 +191,34 @@ html,body{overflow-x:hidden}
   box-shadow:0 16px 44px rgba(147,19,14,.36);
 }
 
-/* Enlarged header identity from the supplied logo reference */
-.site-header .header-inner{min-height:124px}
+/* Header identity from the latest full logo image */
+.site-header .header-inner{min-height:120px}
 .site-header .brand{
-  grid-template-columns:112px max-content;
-  grid-template-rows:auto auto;
-  column-gap:16px;
-  align-items:center;
+  position:relative;
+  display:block;
+  flex:0 0 clamp(300px,29vw,380px);
+  width:clamp(300px,29vw,380px);
+  line-height:1;
 }
 .site-header .brand-symbol,
 .site-header .brand:not(:has(.brand-symbol))::before{
-  width:112px;
-  height:112px;
-}
-.site-header .brand-mark{
-  font-size:58px;
-  line-height:.86;
-  letter-spacing:.006em;
-  white-space:nowrap;
-}
-.site-header .brand-sub{
   display:block;
   width:100%;
-  margin-top:10px;
-  font-size:10px;
-  line-height:1;
-  letter-spacing:.34em;
+  height:auto;
+  aspect-ratio:1280/433;
+  object-fit:contain;
+}
+.site-header .brand:not(:has(.brand-symbol))::before{
+  content:"";
+  background:url("assets/logo-dtp39-wide.jpg") center/contain no-repeat;
+}
+.site-header .brand-mark,
+.site-header .brand-sub{
+  position:absolute;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  clip:rect(0 0 0 0);
   white-space:nowrap;
 }
 .site-header .top-nav{gap:22px}
@@ -329,6 +331,33 @@ html,body{overflow-x:hidden}
   .site-header .brand-symbol,.site-header .brand:not(:has(.brand-symbol))::before{width:64px;height:64px}
   .site-header .brand-mark{font-size:34px}
   .site-header .brand-sub{margin-top:6px;font-size:6px;letter-spacing:.29em}
+}
+.site-header .brand{
+  display:block;
+  grid-template-columns:none;
+  flex-basis:clamp(300px,29vw,380px);
+  width:clamp(300px,29vw,380px);
+  column-gap:0;
+}
+.site-header .brand-symbol,
+.site-header .brand:not(:has(.brand-symbol))::before{
+  width:100%;
+  height:auto;
+  aspect-ratio:1280/433;
+}
+@media(max-width:760px){
+  .site-header .header-inner{min-height:82px}
+  .site-header .brand{
+    flex-basis:min(235px,72vw);
+    width:min(235px,72vw);
+  }
+}
+@media(max-width:430px){
+  .site-header .header-inner{min-height:76px}
+  .site-header .brand{
+    flex-basis:min(210px,72vw);
+    width:min(210px,72vw);
+  }
 }
 @media(max-width:1050px) and (min-width:761px){.hero-grid{grid-template-columns:.92fr 1.08fr;gap:0}.hero-content{padding-right:38px}.hero-identity{font-size:90px}.hero h1{font-size:48px}.hero-callline{width:100%}.hero-callline strong{font-size:34px}.hero-visual img{object-position:56% center}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
