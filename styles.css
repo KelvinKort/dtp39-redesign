@@ -221,28 +221,12 @@ html,body{overflow-x:hidden}
 .site-header .top-nav a{white-space:nowrap}
 .site-header .header-phone{
   display:grid;
-  grid-template-columns:205px 40px auto;
+  grid-template-columns:40px auto;
   align-items:center;
   gap:14px;
   line-height:1;
   flex:0 0 auto;
   color:#111;
-}
-.site-header .header-phone-cta{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  min-height:58px;
-  padding:0 22px;
-  border-radius:16px;
-  background:linear-gradient(180deg,#ef2d2b 0%,#dc2024 100%);
-  box-shadow:0 17px 34px rgba(223,36,28,.2);
-  color:#fff;
-  font-size:17px;
-  font-weight:800;
-  letter-spacing:0;
-  text-transform:none;
-  white-space:nowrap;
 }
 .site-header .header-phone-icon{
   display:grid;
