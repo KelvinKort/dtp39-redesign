@@ -797,6 +797,23 @@ html,body{overflow-x:hidden}
 .why-photo{
   min-height:0;
 }
+.why-photo:after{
+  content:none;
+  display:none;
+}
+.why-copy{
+  align-self:center;
+}
+.why-copy h2{
+  font-size:clamp(40px,4vw,56px);
+  line-height:1.06;
+}
+.why-copy .large-copy{
+  margin:24px 0 30px;
+}
+.why-copy .principles{
+  padding:24px 0 28px;
+}
 .why-photo img{
   height:100%;
   max-height:520px;
@@ -835,5 +852,12 @@ html,body{overflow-x:hidden}
     height:auto;
     max-height:none;
     aspect-ratio:4/3;
+  }
+  .why-copy h2{
+    font-size:30px;
+    line-height:1.08;
+  }
+  .why-copy .large-copy{
+    margin:20px 0 24px;
   }
 }
