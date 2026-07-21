@@ -447,7 +447,8 @@ html,body{overflow-x:hidden}
   margin-left:clamp(-90px,-6vw,-34px);
 }
 .hero-visual img{
-  min-height:clamp(500px,42.5vw,560px);
+  min-height:calc(clamp(500px,42.5vw,560px) + clamp(62px,5vw,76px));
+  transform:translateY(clamp(-76px,-5vw,-62px));
   object-position:50% center;
   filter:grayscale(.18) contrast(1.1) saturate(.86) brightness(.96);
 }
@@ -488,5 +489,5 @@ html,body{overflow-x:hidden}
   .hero-callline{width:100%;max-width:360px;margin-top:34px}
   .hero-visual{margin-inline:-15px}
   .hero-visual:after{display:block;background:linear-gradient(180deg,rgba(5,6,7,.06),rgba(5,6,7,.38))}
-  .hero-visual img{min-height:360px;aspect-ratio:4/3;object-position:52% center}
+  .hero-visual img{min-height:360px;aspect-ratio:4/3;transform:none;object-position:52% center}
 }
