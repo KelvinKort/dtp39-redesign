@@ -235,11 +235,17 @@ html,body{overflow-x:hidden}
   line-height:1.02;
 }
 .timeline li{
-  grid-template-columns:48px 1fr;
+  grid-template-columns:64px 1fr;
   gap:24px;
   padding:29px 0;
 }
 .timeline li{border-top-color:rgba(255,255,255,.14)}
+.timeline>li>span{
+  font-size:18px;
+  font-weight:800;
+  line-height:1.1;
+  letter-spacing:.04em;
+}
 .timeline h3{
   margin-bottom:6px;
   font-size:27px;
@@ -390,8 +396,9 @@ html,body{overflow-x:hidden}
   .section.process h2{font-size:40px;line-height:1.04}
   .process-grid{gap:28px}
   .process-intro>p:not(.kicker){margin:16px 0 20px}
-  .timeline li{grid-template-columns:38px 1fr;gap:16px;padding:24px 0}
+  .timeline li{grid-template-columns:48px 1fr;gap:16px;padding:24px 0}
   .timeline li>div{min-width:0}
+  .timeline>li>span{font-size:16px}
   .timeline h3{font-size:21px}
   .timeline p{font-size:14px;line-height:1.5}
   .why-photo:after{right:auto}
