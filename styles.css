@@ -790,6 +790,11 @@ html,body{overflow-x:hidden}
   padding:64px 0 78px;
 }
 
+.reviews-heading h2{
+  white-space:nowrap;
+  font-size:clamp(40px,4.6vw,64px);
+}
+
 /* Keep the homepage trust block balanced: the image follows the text column height. */
 .why-grid{
   align-items:stretch;
@@ -847,6 +852,9 @@ html,body{overflow-x:hidden}
   }
   .article-wrap{
     padding:52px 0 66px;
+  }
+  .reviews-heading h2{
+    font-size:30px;
   }
   .why-photo img{
     height:auto;
