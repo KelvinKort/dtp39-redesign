@@ -192,17 +192,17 @@ html,body{overflow-x:hidden}
 }
 
 /* Enlarged header identity from the supplied logo reference */
-.site-header .header-inner{min-height:112px}
+.site-header .header-inner{min-height:124px}
 .site-header .brand{
-  grid-template-columns:84px auto;
+  grid-template-columns:104px auto;
   grid-template-rows:auto auto;
-  column-gap:18px;
+  column-gap:20px;
   align-items:center;
 }
 .site-header .brand-symbol,
 .site-header .brand:not(:has(.brand-symbol))::before{
-  width:84px;
-  height:84px;
+  width:104px;
+  height:104px;
 }
 .site-header .brand-mark{
   font-size:54px;
@@ -271,11 +271,11 @@ html,body{overflow-x:hidden}
 @media(max-width:430px){.brand-sub{font-size:8px}.header-phone strong{font-size:19px}.hero h1{font-size:40px}.hero-facts{grid-template-columns:1fr}.hero-facts li{border:0;border-top:1px solid rgba(255,255,255,.1);padding:10px 0;display:grid;grid-template-columns:100px 1fr}.microcopy{margin-top:8px}.footer-grid{grid-template-columns:1fr}}
 @media(max-width:760px){
   .container{width:min(100% - 30px,1280px)}
-  .site-header .header-inner{min-height:88px;gap:18px}
+  .site-header .header-inner{min-height:98px;gap:18px}
   .site-header .header-phone{display:none}
-  .site-header .brand{grid-template-columns:58px auto;column-gap:12px}
+  .site-header .brand{grid-template-columns:72px auto;column-gap:13px}
   .brand-symbol,.brand:not(:has(.brand-symbol))::before{width:36px;height:36px}
-  .site-header .brand-symbol,.site-header .brand:not(:has(.brand-symbol))::before{width:58px;height:58px}
+  .site-header .brand-symbol,.site-header .brand:not(:has(.brand-symbol))::before{width:72px;height:72px}
   .site-header .brand-mark{font-size:38px;letter-spacing:.008em}
   .site-header .brand-sub{margin-top:8px;font-size:8px;letter-spacing:.31em}
   .hero{padding:0;border-top:0}
@@ -322,9 +322,9 @@ html,body{overflow-x:hidden}
   .mobile-call strong{display:none}
 }
 @media(max-width:430px){
-  .site-header .header-inner{min-height:80px;gap:12px}
-  .site-header .brand{grid-template-columns:48px auto;column-gap:9px}
-  .site-header .brand-symbol,.site-header .brand:not(:has(.brand-symbol))::before{width:48px;height:48px}
+  .site-header .header-inner{min-height:88px;gap:12px}
+  .site-header .brand{grid-template-columns:60px auto;column-gap:10px}
+  .site-header .brand-symbol,.site-header .brand:not(:has(.brand-symbol))::before{width:60px;height:60px}
   .site-header .brand-mark{font-size:32px}
   .site-header .brand-sub{margin-top:7px;font-size:7px;letter-spacing:.22em}
 }
