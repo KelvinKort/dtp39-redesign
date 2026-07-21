@@ -751,3 +751,61 @@ html,body{overflow-x:hidden}
   .aid-step strong{font-size:18px}
   .aid-step p{font-size:12px}
 }
+
+/* Compact vertical rhythm across content blocks */
+.section{
+  padding:64px 0;
+}
+.section-heading,
+.reviews-heading{
+  margin-bottom:34px;
+}
+.section.services{
+  padding:48px 0 64px;
+}
+.section.process{
+  padding:64px 0 68px;
+}
+.contact-cta{
+  padding:68px 0;
+}
+.site-footer{
+  padding:48px 0 22px;
+}
+.footer-bottom{
+  margin-top:38px;
+}
+.inner-hero{
+  padding:64px 0 68px;
+}
+.article-wrap{
+  padding:64px 0 78px;
+}
+
+@media(max-width:760px){
+  .section{
+    padding:52px 0;
+  }
+  .section-heading,
+  .reviews-heading{
+    margin-bottom:30px;
+  }
+  .section.services{
+    padding:40px 0 54px;
+  }
+  .section.process{
+    padding:52px 0 56px;
+  }
+  .contact-cta{
+    padding:56px 0 62px;
+  }
+  .site-footer{
+    padding:42px 0 20px;
+  }
+  .inner-hero{
+    padding:50px 0 56px;
+  }
+  .article-wrap{
+    padding:52px 0 66px;
+  }
+}
