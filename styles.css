@@ -1025,7 +1025,7 @@ html,body{overflow-x:hidden}
     position:fixed!important;
     z-index:36;
     top:33px;
-    right:96px;
+    right:80px;
     width:140px!important;
     height:34px;
     display:block!important;
@@ -1076,13 +1076,13 @@ html,body{overflow-x:hidden}
 
 @media(max-width:430px){
   .site-header .header-phone{
-    right:96px;
+    right:76px;
     width:118px!important;
   }
   .site-header .header-phone-copy{
     width:88px;
   }
   .site-header .header-phone-copy strong{
-    font-size:18px;
+    font-size:17px;
   }
 }
