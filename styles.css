@@ -580,10 +580,11 @@ html,body{overflow-x:hidden}
 .hero-visual img{
   position:absolute;
   inset:0;
-  height:calc(100% + clamp(98px,8vw,132px));
+  height:100%;
   min-height:0;
-  transform:translateY(clamp(-88px,-6vw,-66px));
-  object-position:92% 46%;
+  transform:none;
+  object-fit:contain;
+  object-position:center center;
   filter:contrast(1.02) saturate(1) brightness(.98);
 }
 .hero-visual:after{
@@ -629,16 +630,16 @@ html,body{overflow-x:hidden}
   .hero-hours{width:100%;max-width:300px;margin-top:7px;font-size:11px;letter-spacing:.035em}
   .hero-visual{margin-inline:-15px}
   .hero-visual:after{display:block;background:linear-gradient(180deg,rgba(5,6,7,.06),rgba(5,6,7,.38))}
-  .hero-visual img{position:relative;inset:auto;height:auto;min-height:132px;max-height:22vh;aspect-ratio:16/7;transform:none;object-position:76% 46%}
+  .hero-visual img{position:relative;inset:auto;height:auto;min-height:132px;max-height:22vh;aspect-ratio:16/7;transform:none;object-fit:cover;object-position:76% 46%}
 }
 
 /* More expressive first-aid strip */
 .first-aid{
   position:relative;
   overflow:hidden;
-  padding:18px 0 36px;
+  padding:24px 0 36px;
   background:#050607;
-  border-top:0;
+  border-top:10px solid #f4f1ea;
   border-bottom:1px solid #17191d;
 }
 .first-aid:before{
@@ -745,7 +746,7 @@ html,body{overflow-x:hidden}
     grid-template-columns:1fr;
     width:100%;
   }
-  .first-aid{padding:12px 0 26px}
+  .first-aid{padding:18px 0 26px;border-top-width:8px}
   .first-aid-title,
   .aid-step{
     min-height:0;
