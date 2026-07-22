@@ -636,17 +636,17 @@ html,body{overflow-x:hidden}
 .first-aid{
   position:relative;
   overflow:hidden;
-  padding:34px 0 38px;
-  background:#f4f2ec;
-  border-top:10px solid #fff;
-  border-bottom:1px solid #e4dfd5;
+  padding:18px 0 36px;
+  background:#050607;
+  border-top:0;
+  border-bottom:1px solid #17191d;
 }
 .first-aid:before{
   content:"";
   position:absolute;
   inset:0;
   pointer-events:none;
-  background:linear-gradient(180deg,rgba(255,255,255,.9),rgba(255,255,255,0) 56%);
+  background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,0) 52%);
 }
 .first-aid-grid{
   position:relative;
@@ -667,7 +667,7 @@ html,body{overflow-x:hidden}
   flex-direction:column;
   justify-content:center;
   padding:34px;
-  background:linear-gradient(135deg,#f03a31 0%,var(--red) 48%,#a91812 100%);
+  background:linear-gradient(180deg,#101114 0%,#050607 100%);
   color:#fff;
 }
 .first-aid-title span{
@@ -745,7 +745,7 @@ html,body{overflow-x:hidden}
     grid-template-columns:1fr;
     width:100%;
   }
-  .first-aid{padding:24px 0 28px;border-top-width:8px}
+  .first-aid{padding:12px 0 26px}
   .first-aid-title,
   .aid-step{
     min-height:0;
