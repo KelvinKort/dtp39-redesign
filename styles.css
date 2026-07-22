@@ -1022,20 +1022,32 @@ html,body{overflow-x:hidden}
 }
 
 @media(max-width:760px){
+  .site-header .header-inner{
+    position:relative;
+    padding-right:14px;
+    gap:10px;
+  }
+  .site-header .brand{
+    flex:0 1 clamp(128px,38vw,168px);
+    width:clamp(128px,38vw,168px);
+  }
   .site-header .header-phone{
-    position:static!important;
+    position:absolute!important;
+    top:50%;
+    right:12px;
     z-index:auto;
     display:flex!important;
     flex-direction:row;
     align-items:center;
     justify-content:flex-end;
-    width:auto!important;
-    flex:0 0 102px;
-    min-width:98px;
+    width:clamp(124px,35vw,146px)!important;
+    flex:0 0 auto;
+    min-width:124px;
+    margin-left:0;
     height:auto;
-    padding:0 0 0 10px;
-    border-left:3px solid var(--red);
-    transform:none;
+    padding:3px 0 3px 13px;
+    border-left:4px solid var(--red);
+    transform:translateY(-50%);
     color:#111;
   }
   .site-header .header-phone-icon{
@@ -1049,23 +1061,23 @@ html,body{overflow-x:hidden}
     width:auto;
     margin:0;
     padding:0;
-    align-items:flex-start;
-    gap:2px;
-    text-align:left;
+    align-items:flex-end;
+    gap:3px;
+    text-align:right;
   }
   .site-header .header-phone-copy strong{
     display:block;
     margin:0;
     color:#0b0c0f;
-    font-size:22px;
+    font-size:26px;
     line-height:1;
     font-weight:800;
   }
   .site-header .header-phone-copy span{
     display:block!important;
-    max-width:76px;
+    max-width:102px;
     color:#6d6f76;
-    font-size:7px;
+    font-size:8px;
     line-height:1.05;
     letter-spacing:0;
     text-transform:none;
@@ -1074,16 +1086,24 @@ html,body{overflow-x:hidden}
 }
 
 @media(max-width:430px){
+  .site-header .header-inner{
+    padding-right:12px;
+  }
+  .site-header .brand{
+    flex-basis:clamp(120px,36vw,150px);
+    width:clamp(120px,36vw,150px);
+  }
   .site-header .header-phone{
-    min-width:92px;
-    flex-basis:96px;
-    padding-left:8px;
+    min-width:116px;
+    width:116px!important;
+    right:10px;
+    padding-left:11px;
   }
   .site-header .header-phone-copy{
     width:auto;
   }
   .site-header .header-phone-copy strong{
-    font-size:20px;
+    font-size:24px;
   }
-  .site-header .header-phone-copy span{font-size:6px;max-width:70px}
+  .site-header .header-phone-copy span{font-size:7px;max-width:92px}
 }
