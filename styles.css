@@ -887,6 +887,10 @@ html,body{overflow-x:hidden}
   object-position:72% center;
   filter:contrast(1.05) saturate(.96) brightness(.86);
 }
+.articles-hero .service-hero-media img{
+  object-position:66% center;
+  filter:contrast(1.06) saturate(.98) brightness(.84);
+}
 
 /* Make the final call strip denser without losing the phone CTA hierarchy. */
 .contact-cta{
