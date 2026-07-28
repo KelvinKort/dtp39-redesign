@@ -10,14 +10,13 @@
     button.type = "button";
     button.setAttribute("aria-label", "Открыть меню страниц");
     button.setAttribute("aria-expanded", "false");
-    button.textContent = "Меню";
+    button.innerHTML = '<span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>';
 
     header.insertBefore(button, nav);
 
     button.addEventListener("click", function () {
       var isOpen = header.classList.toggle("menu-open");
       button.setAttribute("aria-expanded", isOpen ? "true" : "false");
-      button.textContent = "Меню";
     });
 
     nav.addEventListener("click", function (event) {
