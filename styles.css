@@ -12,7 +12,7 @@ button,input,textarea,select{font:inherit}
 .skip-link{position:fixed;left:16px;top:-100px;z-index:100;padding:12px 16px;background:#fff;color:#111;border-radius:8px}.skip-link:focus{top:16px}
 .site-header{position:sticky;top:0;z-index:30;background:rgba(244,241,235,.9);backdrop-filter:blur(18px);border-bottom:1px solid rgba(17,19,24,.1)}
 .header-inner{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:28px}
-.brand{display:grid;grid-template-columns:46px auto;grid-template-rows:auto auto;column-gap:10px;align-items:center;line-height:1;flex:0 0 auto}.brand-symbol,.brand:not(:has(.brand-symbol))::before{grid-row:1/3;width:46px;height:46px;object-fit:contain}.brand:not(:has(.brand-symbol))::before{content:"";display:block;background:url("assets/logo-mark-dtp39-v2.png") center/contain no-repeat}.brand-mark{grid-column:2;font-size:28px;font-weight:950;letter-spacing:-.06em}.brand-mark>span{color:var(--red)}.brand-sub{grid-column:2;margin-top:4px;font-size:9px;font-weight:800;letter-spacing:.17em;text-transform:uppercase;color:var(--muted)}
+.brand{display:grid;grid-template-columns:46px auto;grid-template-rows:auto auto;column-gap:10px;align-items:center;line-height:1;flex:0 0 auto}.brand-symbol,.brand:not(:has(.brand-symbol))::before{grid-row:1/3;width:46px;height:46px;object-fit:contain}.brand:not(:has(.brand-symbol))::before{content:"";display:block;background:url("assets/logo-mark-dtp39-v2.webp") center/contain no-repeat}.brand-mark{grid-column:2;font-size:28px;font-weight:950;letter-spacing:-.06em}.brand-mark>span{color:var(--red)}.brand-sub{grid-column:2;margin-top:4px;font-size:9px;font-weight:800;letter-spacing:.17em;text-transform:uppercase;color:var(--muted)}
 .top-nav{display:flex;align-items:center;gap:28px;font-size:14px;font-weight:750}.top-nav a{position:relative;padding:10px 0}.top-nav a:after{content:"";position:absolute;left:0;right:100%;bottom:4px;height:2px;background:var(--red);transition:.25s}.top-nav a:hover:after,.top-nav a:focus-visible:after{right:0}
 .header-phone{display:flex;flex-direction:column;align-items:flex-end;line-height:1}.header-phone span{font-size:10px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}.header-phone strong{margin-top:6px;font-size:24px;letter-spacing:-.04em}
 .hero{position:relative;overflow:hidden;background:var(--ink);color:#fff;padding:72px 0 66px}.hero:after{content:"";position:absolute;width:520px;height:520px;border:1px solid rgba(255,255,255,.07);border-radius:50%;left:-280px;bottom:-310px}
@@ -79,7 +79,7 @@ h1,h2,h3,.brand-mark,.top-nav,.header-phone strong,.btn,.hero-facts strong,.firs
 .faq-grid{grid-template-columns:.72fr 1.28fr;gap:128px}.faq-list{border-top-color:#111}.faq-list details{border-bottom-color:#aaa}.faq-list summary{padding:28px 48px 28px 0;font-size:19px;font-weight:700}.faq-list summary:after{top:20px;font-size:30px}.faq-list details p{padding-bottom:28px;line-height:1.65}
 .contact-cta{padding:112px 0;background:#111;border-top:7px solid var(--red)}.contact-cta-grid{grid-template-columns:1.15fr .85fr;gap:120px}.contact-cta h2{font-size:clamp(48px,5.3vw,74px);font-weight:700}.contact-panel{padding:36px;background:#fff;color:#111;border:0;border-radius:0}.status{color:#555}.status i{border-radius:0;background:var(--red)}.big-phone{font-size:64px;font-weight:700}.full-phone{color:#666}.contact-panel>p{color:#666}
 .site-footer{padding-top:72px}.footer-grid{grid-template-columns:1.55fr repeat(3,1fr)}.footer-grid strong{font-size:10px;font-weight:700}.footer-bottom{margin-top:64px}
-.inner-hero{padding:86px 0 90px;background:#111;border-top:7px solid var(--red)}.breadcrumbs{font-size:10px;text-transform:uppercase;letter-spacing:.07em}.inner-hero h1{font-size:clamp(50px,6vw,82px);line-height:.93;font-weight:700}.inner-hero p{font-size:18px;line-height:1.6}.article-wrap{padding:96px 0 124px}.article-grid{grid-template-columns:minmax(0,1fr) 340px;gap:96px}.article h2{font-size:40px;font-weight:700}.article h3{font-weight:700}.article p,.article li{line-height:1.65}.notice{padding:24px 26px;border-radius:0;border-left-width:6px}.side-call,.related-links{border-radius:0}.side-call{padding:28px}.related-links{border-color:#111}.team-gallery{gap:8px}.team-gallery img{border-radius:0}
+.inner-hero{padding:86px 0 90px;background:#111;border-top:7px solid var(--red)}.breadcrumbs{font-size:10px;text-transform:uppercase;letter-spacing:.07em}.inner-hero h1{font-size:clamp(50px,6vw,82px);line-height:.93;font-weight:700}.inner-hero p{font-size:18px;line-height:1.6}.article-wrap{padding:96px 0 124px}.article-grid{grid-template-columns:minmax(0,1fr) 340px;gap:96px}.article h2{font-size:40px;font-weight:700}.article h3{font-weight:700}.article p,.article li{line-height:1.65}.notice{padding:24px 26px;border-radius:0;border-left-width:6px}.side-call,.related-links{border-radius:0}.side-call{padding:28px}.related-links{border-color:#111}.team-gallery{gap:8px}.team-gallery img{border-radius:0}.articles-page .inner-hero h1,.post-page .inner-hero h1,.articles-page .inner-hero p,.post-page .inner-hero p{overflow-wrap:anywhere}.articles-index{padding-top:78px}.articles-head{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:72px;align-items:end;margin-bottom:36px}.articles-head h2{margin:0;font-size:clamp(38px,4.5vw,58px);line-height:1.04}.articles-head p:last-child{margin:0;color:var(--muted);font-size:16px;line-height:1.55;overflow-wrap:anywhere}.articles-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:#111;border:1px solid #111}.article-card{min-height:285px;padding:24px;background:#fffdfa;display:flex;flex-direction:column;transition:box-shadow .2s ease,background .2s ease}.article-card:hover{background:#f4f1eb;box-shadow:inset 0 6px 0 var(--red)}.article-card span,.post-date{color:var(--red);font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}.article-card h2{margin:42px 0 14px;font-size:24px;line-height:1.15;overflow-wrap:anywhere}.article-card p{margin:0;color:var(--muted);font-size:13px;line-height:1.55}.article-card b{margin-top:auto;padding-top:22px;font-size:12px;text-transform:uppercase;letter-spacing:.08em}.imported-article>.post-date{margin-bottom:26px}.imported-article a{color:var(--red);font-weight:700}.imported-article blockquote{margin:30px 0;padding:22px 26px;background:#fff;border-left:6px solid var(--red)}.imported-article h4{margin:26px 0 10px;font-size:20px}
 
 /* Hero based on the supplied ДТП39 banner reference */
 .hero{padding:0;background:#090a0b;border-top:0}
@@ -284,7 +284,7 @@ html,body{overflow-x:hidden}
 }
 .site-header .brand:not(:has(.brand-symbol))::before{
   content:"";
-  background:url("assets/logo-dtp39-wide.jpg") center/contain no-repeat;
+  background:url("assets/logo-dtp39-wide.webp") center/contain no-repeat;
 }
 .site-header .brand-mark,
 .site-header .brand-sub{
@@ -796,6 +796,96 @@ html,body{overflow-x:hidden}
   padding:64px 0 78px;
 }
 
+.service-hero{
+  position:relative;
+  overflow:hidden;
+  min-height:clamp(360px,32vw,460px);
+  padding:0;
+  border-top:7px solid var(--red);
+  background:#050607;
+}
+.service-hero:before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:1;
+  pointer-events:none;
+  background:
+    linear-gradient(90deg,#050607 0%,rgba(5,6,7,.94) 31%,rgba(5,6,7,.58) 54%,rgba(5,6,7,.1) 78%),
+    linear-gradient(180deg,rgba(255,255,255,.04) 0%,rgba(255,255,255,0) 38%,rgba(0,0,0,.38) 100%);
+}
+.service-hero-grid{
+  position:relative;
+  z-index:2;
+  display:grid;
+  grid-template-columns:minmax(0,.82fr) minmax(430px,1.18fr);
+  min-height:clamp(360px,32vw,460px);
+  align-items:stretch;
+}
+.service-hero-copy{
+  position:relative;
+  z-index:3;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  min-width:0;
+  padding:52px 42px 54px 0;
+}
+.service-hero .breadcrumbs{
+  margin-bottom:30px;
+}
+.service-hero .eyebrow{
+  margin-bottom:18px;
+  color:#ddd7cb;
+}
+.service-hero h1{
+  max-width:660px;
+  font-size:clamp(42px,4.3vw,64px);
+  line-height:1.02;
+  text-shadow:0 18px 46px rgba(0,0,0,.6);
+}
+.service-hero p:not(.eyebrow){
+  max-width:600px;
+  margin-top:24px;
+  color:#d1d1d1;
+  font-size:17px;
+  line-height:1.55;
+  text-shadow:0 12px 32px rgba(0,0,0,.58);
+}
+.service-hero-media{
+  position:relative;
+  min-width:0;
+  margin-right:calc((100vw - min(1280px,calc(100vw - 64px))) / -2);
+}
+.service-hero-media:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(90deg,#050607 0%,rgba(5,6,7,.66) 10%,rgba(5,6,7,.08) 38%,rgba(5,6,7,.28) 100%),
+    linear-gradient(180deg,rgba(0,0,0,.06) 0%,rgba(0,0,0,0) 46%,rgba(0,0,0,.46) 100%);
+}
+.service-hero-media img{
+  width:100%;
+  height:100%;
+  min-height:clamp(360px,32vw,460px);
+  object-fit:cover;
+  object-position:61% center;
+  filter:contrast(1.04) saturate(.95) brightness(.88);
+}
+.accident-help-hero .service-hero-media img{
+  object-position:68% center;
+  filter:contrast(1.06) saturate(.98) brightness(.84);
+}
+.contacts-hero .service-hero-media img{
+  object-position:72% center;
+  filter:contrast(1.05) saturate(.96) brightness(.86);
+}
+.about-hero .service-hero-media img{
+  object-position:72% center;
+  filter:contrast(1.05) saturate(.96) brightness(.86);
+}
+
 /* Make the final call strip denser without losing the phone CTA hierarchy. */
 .contact-cta{
   padding:46px 0;
@@ -941,6 +1031,88 @@ html,body{overflow-x:hidden}
   }
   .inner-hero{
     padding:50px 0 56px;
+  }
+  .service-hero{
+    min-height:0;
+    padding:0;
+    border-top-width:5px;
+  }
+  .service-hero:before{
+    background:
+      linear-gradient(180deg,#050607 0%,rgba(5,6,7,.95) 43%,rgba(5,6,7,.28) 100%),
+      linear-gradient(90deg,rgba(0,0,0,.34),rgba(0,0,0,.04));
+  }
+  .service-hero-grid{
+    grid-template-columns:1fr;
+    width:100%;
+    min-height:0;
+    padding:0 15px;
+  }
+  .service-hero-copy{
+    width:calc(100vw - 30px);
+    padding:40px 0 30px;
+    max-width:100%;
+  }
+  .service-hero .breadcrumbs{
+    margin-bottom:22px;
+  }
+  .service-hero .eyebrow{
+    margin-bottom:14px;
+  }
+  .service-hero h1{
+    max-width:100%;
+    font-size:clamp(31px,8.6vw,36px);
+    line-height:1.08;
+    overflow-wrap:break-word;
+  }
+  .service-hero p:not(.eyebrow){
+    max-width:100%;
+    margin-top:18px;
+    font-size:15px;
+  }
+  .service-hero-media{
+    margin:0 -15px;
+    overflow:hidden;
+  }
+  .service-hero-media:after{
+    background:linear-gradient(180deg,rgba(5,6,7,.05) 0%,rgba(5,6,7,.5) 100%);
+  }
+  .service-hero-media img{
+    min-height:170px;
+    max-height:230px;
+    aspect-ratio:16/7;
+    object-position:70% center;
+  }
+  .accident-help-hero .service-hero-media img{
+    object-position:77% center;
+  }
+  .contacts-hero .service-hero-media img{
+    object-position:74% center;
+  }
+  .about-hero .service-hero-media img{
+    object-position:74% center;
+  }
+  .contacts-hero .service-hero-copy{
+    max-width:330px;
+  }
+  .contacts-hero h1{
+    font-size:30px;
+    line-height:1.08;
+  }
+  .about-page{
+    overflow-x:hidden;
+  }
+  .about-hero .service-hero-copy{
+    max-width:330px;
+  }
+  .about-hero .eyebrow{
+    max-width:310px;
+    line-height:1.45;
+    letter-spacing:.14em;
+  }
+  .about-hero h1{
+    font-size:30px;
+    line-height:1.08;
   }
   .article-wrap{
     padding:52px 0 66px;
@@ -1213,5 +1385,87 @@ html,body{overflow-x:hidden}
   .faq-copy h2{
     font-size:36px;
     line-height:1.08;
+  }
+  .accident-help-page{
+    overflow-x:hidden;
+  }
+  .accident-help-hero .service-hero-copy,
+  .accident-help-page .article{
+    max-width:330px;
+  }
+  .accident-help-page .article h2{
+    max-width:320px;
+    font-size:21px!important;
+    line-height:1.12!important;
+    overflow-wrap:break-word;
+  }
+}
+
+@media(max-width:430px){
+  .accident-help-page{
+    overflow-x:hidden;
+  }
+  .accident-help-hero .service-hero-grid,
+  .accident-help-hero .service-hero-copy{
+    width:100%;
+    max-width:100%;
+  }
+  .accident-help-hero .service-hero-copy,
+  .accident-help-page .article{
+    max-width:330px;
+  }
+  .accident-help-hero h1{
+    font-size:30px;
+    line-height:1.08;
+  }
+  .accident-help-page .article h2{
+    max-width:320px;
+    font-size:21px!important;
+    line-height:1.12!important;
+    overflow-wrap:break-word;
+  }
+}
+
+@media(max-width:900px){
+  .articles-page .inner-hero h1{
+    max-width:330px;
+    font-size:30px;
+    line-height:1.08;
+  }
+  .post-page .inner-hero h1{
+    max-width:330px;
+    font-size:26px;
+    line-height:1.08;
+  }
+  .articles-page .inner-hero p,
+  .post-page .inner-hero p{
+    max-width:330px;
+    font-size:15px;
+  }
+  .post-page .article{
+    max-width:330px;
+  }
+  .post-page .article p,
+  .post-page .article li{
+    font-size:15px;
+    overflow-wrap:anywhere;
+  }
+  .articles-head,
+  .articles-list{
+    grid-template-columns:1fr;
+  }
+  .articles-head{
+    gap:18px;
+  }
+  .articles-head p:last-child{
+    max-width:330px;
+    font-size:15px;
+  }
+  .article-card{
+    min-height:0;
+  }
+  .article-card h2{
+    margin-top:28px;
+    font-size:22px;
   }
 }
