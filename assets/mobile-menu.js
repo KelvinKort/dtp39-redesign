@@ -3,16 +3,19 @@
 
   headers.forEach(function (header) {
     var nav = header.querySelector(".top-nav");
-    if (!nav || header.querySelector(".mobile-menu-toggle")) return;
+    if (!nav) return;
 
-    var button = document.createElement("button");
-    button.className = "mobile-menu-toggle";
-    button.type = "button";
-    button.setAttribute("aria-label", "Открыть меню страниц");
-    button.setAttribute("aria-expanded", "false");
-    button.innerHTML = '<span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>';
+    var button = header.querySelector(".mobile-menu-toggle");
+    if (!button) {
+      button = document.createElement("button");
+      button.className = "mobile-menu-toggle";
+      button.type = "button";
+      button.setAttribute("aria-label", "Открыть меню страниц");
+      button.setAttribute("aria-expanded", "false");
+      button.innerHTML = '<span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>';
 
-    header.insertBefore(button, nav);
+      header.insertBefore(button, nav);
+    }
 
     button.addEventListener("click", function () {
       var isOpen = header.classList.toggle("menu-open");
