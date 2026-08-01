@@ -1573,6 +1573,16 @@ html,body{overflow-x:hidden}
   }
 }
 
+.articles-index{
+  padding-top:48px;
+}
+
+.articles-head{
+  display:block;
+  margin-bottom:28px;
+  text-align:center;
+}
+
 .mobile-menu-toggle{
   display:none;
 }
