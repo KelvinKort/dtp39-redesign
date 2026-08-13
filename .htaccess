@@ -6,6 +6,7 @@ RewriteCond %{HTTP_HOST} ^www\.050dtp\.ru$ [NC]
 RewriteRule ^ https://050dtp.ru%{REQUEST_URI} [R=301,L]
 
 Redirect 301 /stati/category/main/ /stati/
+Redirect 301 /stati/23731/ /stati/23151/
 Redirect 301 /poleznaya-informaciya/ /delat-pri-dtp/
 Redirect 301 /kasko-i-osago/ /avtoyurist-po-dtp/
 Redirect 301 /kuzovnoy-remont/ /uslugi/
