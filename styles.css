@@ -28,6 +28,7 @@ h1,h2,h3,p{margin-top:0}.hero h1{margin:0;max-width:720px;font-size:clamp(48px,6
 .section{padding:112px 0}.section-heading{margin-bottom:48px}.split-heading{display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:end}.section h2{margin:0;font-size:clamp(42px,5vw,68px);line-height:1;letter-spacing:-.055em}.split-heading>p{margin:0;color:var(--muted);font-size:18px;max-width:540px}
 .services{background:var(--paper)}.service-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.service-card{min-height:320px;padding:32px;border:1px solid #dad7d0;border-radius:var(--radius);background:#f9f7f2;display:flex;flex-direction:column;transition:transform .25s,border-color .25s,box-shadow .25s}.service-card:hover{transform:translateY(-5px);border-color:#bbb6ac;box-shadow:0 22px 60px rgba(24,25,29,.08)}.service-card-featured{background:var(--red);color:#fff;border-color:var(--red)}.card-index{font-size:10px;font-weight:850;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}.service-card-featured .card-index{color:rgba(255,255,255,.64)}.service-card h3{font-size:34px;letter-spacing:-.045em;line-height:1.05;margin:76px 0 16px}.service-card p{max-width:520px;color:var(--muted);margin:0}.service-card-featured p{color:rgba(255,255,255,.8)}.card-link{margin-top:auto;padding-top:24px;font-size:13px;font-weight:800}.card-link b{float:right;font-size:20px}
 .process{background:var(--ink);color:#fff}.process-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:100px}.process-intro{position:sticky;top:120px;align-self:start}.process-intro>p:not(.kicker){max-width:400px;color:#9da1aa;margin:25px 0}.text-link{display:inline-flex;gap:20px;border-bottom:1px solid currentColor;padding:8px 0;font-size:14px;font-weight:850}.text-link span{color:var(--red);font-size:18px}.timeline{list-style:none;margin:0;padding:0}.timeline li{display:grid;grid-template-columns:70px 1fr;gap:24px;padding:36px 0;border-top:1px solid rgba(255,255,255,.12)}.timeline li:last-child{border-bottom:1px solid rgba(255,255,255,.12)}.timeline>li>span{color:var(--red);font-weight:850;font-size:12px}.timeline h3{margin:0 0 8px;font-size:27px;letter-spacing:-.035em}.timeline p{margin:0;color:#9297a1;max-width:580px}
+.real-work{background:#fffdfa;border-top:1px solid #111;border-bottom:1px solid #111}.real-work .split-heading{align-items:end}.real-work-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:#111;border:1px solid #111}.real-work-card{position:relative;min-height:270px;margin:0;background:#111;overflow:hidden}.real-work-card-wide{grid-column:span 2}.real-work-card img{width:100%;height:100%;min-height:270px;aspect-ratio:4/3;object-fit:cover;filter:saturate(.96) contrast(1.04)}.real-work-card figcaption{position:absolute;left:0;right:0;bottom:0;padding:18px 20px;background:linear-gradient(180deg,rgba(8,9,11,0),rgba(8,9,11,.86));color:#fff;font-size:12px;font-weight:700;line-height:1.35}
 .why-us{background:#fff}.why-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:84px;align-items:center}.why-photo{position:relative}.why-photo:after{content:"КОМАНДА ДТП39";position:absolute;right:-34px;top:30px;padding:10px 14px;background:var(--lime);font-size:9px;font-weight:900;letter-spacing:.14em;transform:rotate(90deg);transform-origin:right top}.why-photo img{width:100%;aspect-ratio:.9/1;object-fit:cover;object-position:center;border-radius:26px}.large-copy{margin:30px 0 40px;color:var(--muted);font-size:19px;max-width:650px}.principles{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:28px 0 34px;border-top:1px solid var(--line)}.principles strong{font-size:16px}.principles p{margin:8px 0 0;color:var(--muted);font-size:12px}.dark-link{color:var(--ink)}
 .reviews-section{background:#fff;border-top:1px solid var(--line)}.reviews-heading{display:grid;grid-template-columns:1fr auto;gap:48px;align-items:end;margin-bottom:44px}.yandex-rating{min-width:285px;padding:18px 20px;background:var(--paper);border:1px solid var(--line);border-radius:16px;display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;transition:transform .2s,border-color .2s}.yandex-rating:hover{transform:translateY(-3px);border-color:#bcb8af}.yandex-mark{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;background:#fc3;color:#e3372f;font-size:22px;font-weight:950}.yandex-rating b{display:block;font-size:22px;line-height:1}.yandex-rating small{display:block;margin-top:5px;color:var(--muted);font-size:10px}.yandex-rating>strong{color:var(--red);font-size:22px}.review-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.review-card{min-height:300px;padding:30px;border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);display:flex;flex-direction:column}.review-stars{color:#f5b700;letter-spacing:.14em;font-size:14px}.review-card blockquote{margin:42px 0 32px;font-size:23px;line-height:1.4;letter-spacing:-.025em}.review-card footer{margin-top:auto;display:flex;flex-direction:column;gap:4px}.review-card footer strong{font-size:14px}.review-card footer span{color:var(--muted);font-size:11px}.reviews-foot{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-top:24px;color:var(--muted);font-size:11px}.reviews-foot .text-link{color:var(--ink);font-size:13px}
 .articles-preview-section{background:#fffdfa;border-top:1px solid #111;border-bottom:1px solid #111}.articles-preview-heading{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end;margin-bottom:38px}.articles-preview-heading h2{margin:0}.articles-preview-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:#111;border:1px solid #111}.articles-preview-grid .article-card h3{margin:42px 0 14px;font-size:24px;line-height:1.15;overflow-wrap:anywhere}
@@ -2058,6 +2059,42 @@ html,body{overflow-x:hidden}
 }
 
 @media(max-width:760px){
+  .real-work .container{
+    width:calc(100% - 30px);
+    max-width:none;
+  }
+  .real-work .split-heading{
+    display:block;
+  }
+  .real-work .split-heading>p{
+    width:100%;
+    max-width:330px;
+    min-width:0;
+    margin-top:22px;
+    font-size:16px;
+    line-height:1.55;
+    overflow-wrap:break-word;
+  }
+  .real-work .section-heading h2{
+    font-size:42px;
+    line-height:1.05;
+  }
+  .real-work-grid{
+    grid-template-columns:1fr;
+  }
+  .real-work-card,
+  .real-work-card-wide{
+    grid-column:auto;
+    min-height:0;
+  }
+  .real-work-card img{
+    min-height:0;
+    aspect-ratio:4/3;
+  }
+  .real-work-card figcaption{
+    padding:16px;
+    font-size:11px;
+  }
   .site-header .header-inner{
     flex-wrap:nowrap;
     gap:8px;
